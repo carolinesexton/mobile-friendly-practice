@@ -1,4 +1,67 @@
-h1 {
-    background-color: aqua;
-    color: brown;
+.cls-1 {
+    fill: url(#gradient);
 }
+.overlay-title {
+        text-align: center;
+        color: white;
+        position:absolute;
+        text-align: center;
+        width: 100%;
+        padding-top: 100px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: lighter;
+}
+/* h1 {
+    font-size: 40px;
+    color: white;
+} */
+h2 {
+    font-size: 30px;
+    color: rgba(9,109,121,1);
+    text-align: left;
+}
+.box1 {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+h3 {
+    display: inline-block;
+    font-size: 30px;
+    color: rgba(9,109,121,1);
+}
+.box2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: right;
+}
+footer {
+    background-color: rgb(15, 13, 13);
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 100px;
+    width: 90%;
+}
+/* @media (max-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+    
+}
+@media (max-width: 768px) {
+    body {
+        background-color: purple;
+    }
+}
+@media (max-width: 1024) {
+    body {
+        background-color: gray;
+    }
+} */
