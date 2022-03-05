@@ -49,6 +49,9 @@ footer {
     margin: 100px;
     width: 90%;
 }
+.container {
+    display: flex;
+}
 @media (min-width: 480px) {
     .container {
         background-color: yellow;
